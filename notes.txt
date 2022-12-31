@@ -1,0 +1,9 @@
+CREATE THE GITHUB REPO 
+
+echo "# auth0-coffeebrain" >> README.md
+git init 
+git add README.md
+git commit -m "first commit"
+git branch -M main 
+git remote add origin https://github.com/rkarthik-iamok/auth0-coffeebrain.git 
+git push -u origin main
