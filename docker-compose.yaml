@@ -1,0 +1,11 @@
+version: "2.7"
+services:
+  coffeebrain:
+    build: ./coffeebrain
+    image: coffeebrain:v1
+    container_name: coffeebrain_app_v1
+    ports:
+      - '8080:8080'
+    volumes:
+      - './coffeebrain:/app'
+      - './coffeebrain/node_modules'

@@ -1,0 +1,2 @@
+# Ignore node_modules folder in coffeebrain app
+coffeebrain/node_modules
